@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="819.0" prefWidth="1015.0" style="-fx-background-color: #a00000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <Label alignment="CENTER" layoutX="187.0" layoutY="74.0" prefHeight="125.0" prefWidth="1015.0" text="Que1" textFill="#19e10a" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Italic" size="61.0" />
+         </font>
+      </Label>
+      <Label layoutY="125.0" prefHeight="70.0" prefWidth="1015.0" text=" Taper votre reponse ici :" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <TextField layoutX="57.0" layoutY="215.0" prefHeight="60.0" prefWidth="401.0" />
+      <Button alignment="CENTER" layoutX="122.0" layoutY="330.0" mnemonicParsing="false" onAction="#LancerSanteQue2" prefHeight="80.0" prefWidth="271.0" text="Aller vers la 2ème Question">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

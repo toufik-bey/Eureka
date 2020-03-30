@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="819.0" prefWidth="1015.0" style="-fx-background-color: #03ea07;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <children>
+      <Label alignment="CENTER" layoutX="397.0" layoutY="3.0" prefHeight="110.0" prefWidth="278.0" text="Les thèmes" textFill="#e82b05" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="407.0" layoutY="251.0" mnemonicParsing="false" onAction="#LancerSanteQue1" prefHeight="71.0" prefWidth="186.0" text="SANTE" AnchorPane.leftAnchor="407.0" AnchorPane.rightAnchor="407.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="377.0" layoutY="374.0" mnemonicParsing="false" onAction="#LancerIslamQue1" prefHeight="71.0" prefWidth="263.0" text="ISLAM" AnchorPane.leftAnchor="377.0" AnchorPane.rightAnchor="377.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="329.0" layoutY="491.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="343.0" text="HISTOIRE" AnchorPane.leftAnchor="329.0" AnchorPane.rightAnchor="329.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="258.0" layoutY="593.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="486.0" text="GEOGRAPHIE" AnchorPane.leftAnchor="258.0" AnchorPane.rightAnchor="258.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button contentDisplay="CENTER" layoutX="150.0" layoutY="697.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="717.0" text="CULTUREGENERALE" AnchorPane.leftAnchor="135.0" AnchorPane.rightAnchor="135.0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
