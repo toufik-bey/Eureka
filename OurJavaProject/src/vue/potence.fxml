@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="p1" layoutX="1.0" layoutY="1.0" prefHeight="146.0" prefWidth="200.0" style="-fx-background-color: #aba9a6;">
+         <children>
+            <Label layoutX="5.0" layoutY="125.0" prefHeight="16.0" prefWidth="191.0" text="il vous reste 8 esseye" />
+         </children>
+      </Pane>
+      <Pane id="p2" layoutX="200.0" prefHeight="146.0" prefWidth="200.0" style="-fx-background-color: #c9c7c1;">
+         <children>
+            <Label layoutX="19.0" layoutY="126.0" prefHeight="16.0" prefWidth="181.0" text="rest 7 coup a jouer" />
+            <Line endX="230.5" endY="130.5" layoutX="-188.0" layoutY="-22.0" startX="335.5" startY="130.5" />
+         </children>
+      </Pane>
+      <Pane id="p3" layoutX="400.0" layoutY="1.0" prefHeight="146.0" prefWidth="200.0" style="-fx-background-color: #aba9a6;">
+         <children>
+            <Label layoutX="6.0" layoutY="128.0" prefHeight="16.0" prefWidth="191.0" text="rest 6 coup a jouer" />
+         </children>
+      </Pane>
+      <Line endX="554.0" endY="114.0" startX="444.0" startY="114.0" />
+      <Line endX="445.5" endY="113.5" startX="445.5" startY="13.292892456054688" />
+      <Pane layoutX="1.0" layoutY="153.0" prefHeight="124.0" prefWidth="200.0" style="-fx-background-color: #aba9a6;">
+         <children>
+            <Label layoutY="101.0" prefHeight="16.0" prefWidth="200.0" text="rest 5 coups a jouer" />
+            <Pane id="p4" layoutX="10.0" layoutY="9.0" prefHeight="152.0" prefWidth="200.0">
+               <children>
+                  <Line endX="130.0" endY="236.50001525878906" layoutX="-16.0" layoutY="-161.0" startX="28.0" startY="236.50003051757812" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Line endX="22.29290771484375" endY="156.2928924560547" startX="22.29290771484375" startY="235.79290771484375" />
+      <Line endX="24.0" endY="199.2928924560547" startX="65.0" startY="235.79290771484375" />
+      <Pane id="p5" layoutX="201.0" layoutY="153.0" prefHeight="124.0" prefWidth="200.0" style="-fx-background-color: #c9c7c1;">
+         <children>
+            <Label layoutX="4.0" layoutY="102.0" prefHeight="16.0" prefWidth="173.0" text="rest 4 coups a jouer" />
+         </children>
+      </Pane>
+      <Line endX="226.0" endY="235.49998474121094" startX="350.5" startY="235.5" />
+      <Line endX="226.0" endY="236.0" startX="226.00001525878906" startY="153.0" />
+      <Line endX="227.0" endY="197.2928924560547" startX="272.5" startY="234.79287719726562" />
+      <Line endX="225.5" endY="155.5" startX="339.29290771484375" startY="155.5" />
+      <Pane id="p6" layoutX="400.0" layoutY="152.0" prefHeight="124.0" prefWidth="200.0" style="-fx-background-color: #aba9a6;">
+         <children>
+            <Label layoutY="103.0" prefHeight="16.0" prefWidth="200.0" text="rest 3 coups a jouer" />
+         </children>
+      </Pane>
+      <Line endX="421.0" endY="232.49998474121094" startX="541.5" startY="232.5" />
+      <Line endX="420.29290771484375" endY="157.2928924560547" startX="420.29290771484375" startY="231.79287719726562" />
+      <Line endX="419.0" endY="157.0" startX="536.2929077148438" startY="157.0" />
+      <Line endX="483.0" endY="233.0" startX="420.79290771484375" startY="201.2928924560547" />
+      <Line endX="469.5" endY="156.5" startX="420.79290771484375" startY="184.2928924560547" />
+      <Pane layoutX="200.0" layoutY="298.0" prefHeight="146.0" prefWidth="200.0" style="-fx-background-color: #c9c7c1;">
+         <children>
+            <Circle id="p8" fill="#c8ccd0" layoutX="124.0" layoutY="59.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutY="124.0" prefHeight="16.0" prefWidth="200.0" text="rest un coup a jouer !" />
+         </children>
+      </Pane>
+      <Line endX="350.5" endY="414.5" startX="233.2928924560547" startY="414.5" />
+      <Line endX="232.79287719726562" endY="328.29290771484375" startX="232.79287719726562" startY="414.0" />
+      <Line endX="348.0" endY="327.79290771484375" startX="233.29287719726562" startY="327.79290771484375" />
+      <Line endX="234.0" endY="381.29290771484375" startX="278.5" startY="414.0" />
+      <Line endX="234.0" endY="358.29290771484375" startX="277.5" startY="327.29290771484375" />
+      <Line endX="322.0" endY="327.0" startX="322.0" startY="354.29290771484375" />
+      <Pane id="p9" layoutX="401.0" layoutY="296.0" prefHeight="146.0" prefWidth="200.0" style="-fx-background-color: #aba9a6;">
+         <children>
+            <Label layoutX="-1.0" layoutY="127.0" prefHeight="16.0" prefWidth="191.0" text="Vous etes Pendu!" />
+            <Line endX="83.0" endY="28.5" startX="23.0" startY="58.0" />
+            <Line endX="130.0" endY="29.0" startX="21.0" startY="29.0" />
+            <Line endX="19.0" endY="118.0" startX="137.0" startY="118.0" />
+            <Line endX="67.0" endY="117.5" startX="23.0" startY="82.0" />
+            <Line endX="22.0" endY="32.0" startX="22.0" startY="116.0" />
+         </children>
+      </Pane>
+      <Line endX="508.5" endY="351.29290771484375" startX="508.5" startY="324.5" />
+      <Circle fill="#bcc0c3" layoutX="510.0" layoutY="352.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line endX="510.0" endY="388.0" startX="510.0" startY="360.0" />
+      <Line endX="499.0" endY="373.29290771484375" startX="509.5" startY="366.5" />
+      <Line endX="510.5" endY="366.5" startX="521.2929077148438" startY="373.29290771484375" />
+      <Line endX="495.0" endY="397.29290771484375" startX="509.5" startY="383.5" />
+      <Line endX="510.5" endY="382.5" startX="524.0" startY="395.0" />
+      <Pane layoutX="22.0" layoutY="196.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Pane id="p7" layoutX="-23.0" layoutY="105.0" prefHeight="146.0" prefWidth="200.0" style="-fx-background-color: #aba9a6;">
+               <children>
+                  <Label layoutY="124.0" prefHeight="16.0" prefWidth="200.0" text="rest 2 coups a jouer" />
+               </children>
+            </Pane>
+            <Line endX="121.0" endY="224.0" startX="0.5" startY="224.0" />
+            <Line endX="2.5" endY="133.0" startX="2.5" startY="222.0" />
+            <Line endX="121.0" endY="135.0" startX="2.5" startY="135.0" />
+            <Line endX="3.0" endY="190.0" startX="44.5" startY="223.0" />
+            <Line endX="3.0" endY="165.0" startX="53.5" startY="134.0" />
+            <Line endX="100.0" endY="165.0" startX="100.0" startY="133.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
