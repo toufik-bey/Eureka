@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7adf44c-f8ab-4089-91f8-e876b630d5c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OurJavaProject/src/vue/singin.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurJavaProject/src/vue/Sante1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/OurJavaProject/src/vue/Sante1.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

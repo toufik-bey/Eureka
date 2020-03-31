@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vue.Singin">
+   <children>
+      <Label layoutX="50.0" layoutY="22.0" prefHeight="42.0" prefWidth="327.0" text=" creat an account and strat the game ">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label layoutX="32.0" layoutY="102.0" text="name :" />
+      <TextField id="name-register" layoutX="100.0" layoutY="97.0" />
+      <TextField id="pass-register" layoutX="100.0" layoutY="157.0" />
+      <TextField id="day" layoutX="100.0" layoutY="241.0" prefHeight="26.0" prefWidth="39.0" />
+      <TextField id="month" layoutX="214.0" layoutY="241.0" prefHeight="26.0" prefWidth="39.0" />
+      <TextField id="year" layoutX="338.0" layoutY="241.0" prefHeight="26.0" prefWidth="39.0" />
+      <Label layoutX="24.0" layoutY="213.0" prefHeight="16.0" prefWidth="100.0" text="birth date " />
+      <Label layoutX="24.0" layoutY="162.0" text="password:" />
+      <Label layoutX="168.0" layoutY="246.0" text="MM" />
+      <Label layoutX="56.0" layoutY="246.0" text="DD" />
+      <Label layoutX="291.0" layoutY="246.0" text="YY" />
+      <Button id="sign-in" layoutX="60.0" layoutY="323.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="118.0" style="-fx-background-color: #36bbc9;" text="sign in " />
+   </children>
+</AnchorPane>

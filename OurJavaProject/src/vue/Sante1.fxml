@@ -15,7 +15,7 @@
       </Label>
       <Label layoutY="125.0" prefHeight="70.0" prefWidth="1015.0" text=" Taper votre reponse ici :" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
          <font>
-            <Font size="33.0" />
+            <Font size="33.0"/>
          </font>
       </Label>
       <TextField layoutX="57.0" layoutY="215.0" prefHeight="60.0" prefWidth="401.0" />
@@ -26,3 +26,37 @@
       </Button>
    </children>
 </AnchorPane>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
